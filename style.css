@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  form {
+    margin: 0 auto;
+    text-align: left;
+    width: 300px;
+  }
+  
+  #qr-code {
+    margin: 20px auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+    #qr-code {
+      width: 80%;
+      margin: 10px auto;
+    }
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F0F0F0;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 50px 0;
+  }
+  
+  form {
+    margin: 0 auto;
+    text-align: left;
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #BBBBBB;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3E8E41;
+  }
+  
+  #qr-code {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+  }
+  
+  label[for="format"] {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  select#format {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    font-size: 1.2em;
+  }
+  
+  select#format:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px #4CAF50;
+  }
+  
+  select#format {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("path/to/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+  }
+  
+  #footer {
+    background-color: #f5f4f5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #social-links {
+    margin: 10px 0;
+  }
+  
+  #social-links button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  #github-btn:hover {
+    background-color: #24292e; /* Github color */
+    color: #fff;
+  }
+  
+  #twitter-btn:hover {
+    background-color: #1da1f2; /* Twitter color */
+    color: #fff;
+  }
+  
+  p{
+    background-color:#4CAF50
+  }
+  
+  /* Default styles */
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #qr-code {
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    form {
+      width: 80%;
+    }
+  
+    #qr-code {
+      width: 80%;
+      height: auto;
+    }
+  }
+  
